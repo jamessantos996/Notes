@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+#add{
+    padding: 20px;
+    background-color: antiquewhite;
+}
+    #add label{
+        display: block;
+    }
+    #add input[type=text]{
+        padding: 5px;
+    }
+    #add textarea{
+        padding: 5px;
+    }
+    #add input[type=submit]{
+        display: block;
+        cursor: pointer;
+        padding: 0px 20px;
+        background-color: green;
+        color: white;
+    }
+.wrapper{
+    display: inline-block;
+    padding: 10px;
+}
+    .wrapper .notes{
+        vertical-align: top;
+        padding: 10px 10px 10px 0px;
+    }
+    .wrapper .notes h4{
+        display: inline-block;
+    }
+    .wrapper .notes form{
+        display: inline-block;
+    }
+        .wrapper .notes form input[type=submit]{
+            margin-left: 10px;
+            cursor: pointer;
+            padding: 0px 10px;
+            background-color: red;
+            color: white;
+        }
+    .wrapper .edit input[type=submit]{
+        display: block;
+        background-color: blue;
+        color: white;
+        padding: 0px 10px;
+        cursor: pointer;
+    }
+    .wrapper .edit .edit_description{
+        padding: 5px;
+    }
